@@ -133,7 +133,7 @@ GameObject:
   - component: {fileID: 33765268}
   - component: {fileID: 33765267}
   m_Layer: 10
-  m_Name: teaPlace
+  m_Name: hotPlace1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -374,6 +374,7 @@ GameObject:
   - component: {fileID: 124709878}
   - component: {fileID: 124709879}
   - component: {fileID: 124709880}
+  - component: {fileID: 124709881}
   m_Layer: 13
   m_Name: iceCream
   m_TagString: Untagged
@@ -471,6 +472,21 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.1, y: 1.15}
   m_EdgeRadius: 0
+--- !u!114 &124709881
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 124709877}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a8e7da23f3ecabe4faaf55f082877f45, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectPlace1: {fileID: 593138170}
+  objectPlace2: {fileID: 1847204828}
+  objectPlace3: {fileID: 379853846}
 --- !u!1 &240046647
 GameObject:
   m_ObjectHideFlags: 0
@@ -482,6 +498,7 @@ GameObject:
   - component: {fileID: 240046648}
   - component: {fileID: 240046649}
   - component: {fileID: 240046650}
+  - component: {fileID: 240046651}
   m_Layer: 9
   m_Name: volcano
   m_TagString: Untagged
@@ -579,6 +596,21 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.1, y: 1.15}
   m_EdgeRadius: 0
+--- !u!114 &240046651
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 240046647}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1be4838ee27612f4295d69f5fd55efb4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectPlace1: {fileID: 33765266}
+  objectPlace2: {fileID: 970778318}
+  objectPlace3: {fileID: 2046166578}
 --- !u!1 &316755498
 GameObject:
   m_ObjectHideFlags: 0
@@ -659,7 +691,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 316755501}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1821185033}
+        m_MethodName: homeClick
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &316755501
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -709,7 +752,7 @@ GameObject:
   - component: {fileID: 379853848}
   - component: {fileID: 379853847}
   m_Layer: 13
-  m_Name: iceCreamPlace
+  m_Name: coldPlace3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -885,7 +928,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 495001321}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1821185033}
+        m_MethodName: StopMusic
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &495001321
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1054,7 +1108,7 @@ GameObject:
   - component: {fileID: 593138172}
   - component: {fileID: 593138171}
   m_Layer: 8
-  m_Name: parapluiePlace
+  m_Name: coldPlace1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1230,7 +1284,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 686195396}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1821185032}
+        m_MethodName: showMenu
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &686195396
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1429,7 +1494,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 836812416}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1821185033}
+        m_MethodName: PlayMusic
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &836812416
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1624,6 +1700,7 @@ GameObject:
   - component: {fileID: 956510276}
   - component: {fileID: 956510277}
   - component: {fileID: 956510278}
+  - component: {fileID: 956510279}
   m_Layer: 8
   m_Name: parapluie
   m_TagString: Untagged
@@ -1721,6 +1798,21 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.1, y: 1.15}
   m_EdgeRadius: 0
+--- !u!114 &956510279
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 956510275}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9e269b750dca2164ba45cb62385bc696, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectPlace1: {fileID: 593138170}
+  objectPlace2: {fileID: 1847204828}
+  objectPlace3: {fileID: 379853846}
 --- !u!1 &957912249
 GameObject:
   m_ObjectHideFlags: 0
@@ -1867,7 +1959,7 @@ GameObject:
   - component: {fileID: 970778320}
   - component: {fileID: 970778319}
   m_Layer: 9
-  m_Name: volcanoPlace
+  m_Name: hotPlace2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2155,6 +2247,7 @@ GameObject:
   - component: {fileID: 1289454310}
   - component: {fileID: 1289454311}
   - component: {fileID: 1289454312}
+  - component: {fileID: 1289454313}
   m_Layer: 10
   m_Name: tea
   m_TagString: Untagged
@@ -2252,6 +2345,21 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.1, y: 1.15}
   m_EdgeRadius: 0
+--- !u!114 &1289454313
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1289454309}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b676ebabfd349f7409a3b029d33d9570, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectPlace1: {fileID: 33765266}
+  objectPlace2: {fileID: 970778318}
+  objectPlace3: {fileID: 2046166578}
 --- !u!1 &1296714224
 GameObject:
   m_ObjectHideFlags: 0
@@ -2403,6 +2511,7 @@ GameObject:
   - component: {fileID: 1663791437}
   - component: {fileID: 1663791438}
   - component: {fileID: 1663791439}
+  - component: {fileID: 1663791440}
   m_Layer: 11
   m_Name: sun
   m_TagString: Untagged
@@ -2500,6 +2609,21 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.1, y: 1.15}
   m_EdgeRadius: 0
+--- !u!114 &1663791440
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1663791436}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6353ebe253123654aa1905c5b1e9c582, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectPlace1: {fileID: 33765266}
+  objectPlace2: {fileID: 970778318}
+  objectPlace3: {fileID: 2046166578}
 --- !u!1 &1730456809
 GameObject:
   m_ObjectHideFlags: 0
@@ -2580,7 +2704,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1730456812}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1821185033}
+        m_MethodName: restartClick
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1730456812
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2773,7 +2908,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1752337603}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1821185032}
+        m_MethodName: hideMenu
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1752337603
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2891,7 +3037,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1761763225}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1821185033}
+        m_MethodName: playClick
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1761763225
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2929,6 +3086,65 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1761763222}
   m_CullTransparentMesh: 0
+--- !u!1 &1821185031
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1821185034}
+  - component: {fileID: 1821185033}
+  - component: {fileID: 1821185032}
+  m_Layer: 0
+  m_Name: GameControl
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1821185032
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1821185031}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c65dff5afb3ff0743b39956f9195f100, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pauseMenu: {fileID: 1743168267}
+  muteBtn: {fileID: 495001318}
+  unmuteBtn: {fileID: 836812413}
+--- !u!114 &1821185033
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1821185031}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc70a3f06362ca34eba7943621ec4b4e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!4 &1821185034
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1821185031}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -10}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1847204827
 GameObject:
   m_ObjectHideFlags: 0
@@ -2941,7 +3157,7 @@ GameObject:
   - component: {fileID: 1847204830}
   - component: {fileID: 1847204829}
   m_Layer: 12
-  m_Name: rainPlace
+  m_Name: coldPlace2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3048,6 +3264,7 @@ GameObject:
   - component: {fileID: 1970641436}
   - component: {fileID: 1970641437}
   - component: {fileID: 1970641438}
+  - component: {fileID: 1970641439}
   m_Layer: 12
   m_Name: rain
   m_TagString: Untagged
@@ -3145,6 +3362,21 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.1, y: 1.15}
   m_EdgeRadius: 0
+--- !u!114 &1970641439
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1970641435}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d566c971d083e24cb9bb1ffefcf1835, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectPlace1: {fileID: 593138170}
+  objectPlace2: {fileID: 1847204828}
+  objectPlace3: {fileID: 379853846}
 --- !u!1 &2046166577
 GameObject:
   m_ObjectHideFlags: 0
@@ -3157,7 +3389,7 @@ GameObject:
   - component: {fileID: 2046166580}
   - component: {fileID: 2046166579}
   m_Layer: 11
-  m_Name: sunPlace
+  m_Name: hotPlace3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
