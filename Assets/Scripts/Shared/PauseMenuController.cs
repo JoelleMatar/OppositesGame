@@ -81,7 +81,8 @@ public class PauseMenuController : MonoBehaviour
         }
         else if (index == 3)
         {
-            if (CheckIntrus.intrus1 && CheckIntrus.intrus2 && CheckIntrus.intrus3) return true;
+            //if (CheckIntrus.intrus1 && CheckIntrus.intrus2 && CheckIntrus.intrus3) return true;
+            if (Single.intrus && Short.intrus && Light.intrus) return true;
         }
         return false;
     }
