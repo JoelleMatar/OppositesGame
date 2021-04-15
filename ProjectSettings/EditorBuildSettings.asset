@@ -17,4 +17,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Exercise3Scene.unity
     guid: eb03a9be8bf2552489d4d34415517c3d
+  - enabled: 1
+    path: Assets/Scenes/CongratsScene.unity
+    guid: 95689db337ecade43b7b20d7ae12edf9
   m_configObjects: {}
