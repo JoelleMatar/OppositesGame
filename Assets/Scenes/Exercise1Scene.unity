@@ -1702,7 +1702,7 @@ GameObject:
   - component: {fileID: 956510278}
   - component: {fileID: 956510279}
   m_Layer: 8
-  m_Name: parapluie
+  m_Name: snowflake
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1761,7 +1761,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 10
-  m_Sprite: {fileID: 21300000, guid: fcd46081315bd5343a47792756efd395, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 025b3ee1a3e5f964f921ca7cb605f1a4, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -3262,7 +3262,7 @@ GameObject:
   - component: {fileID: 1970641438}
   - component: {fileID: 1970641439}
   m_Layer: 12
-  m_Name: rain
+  m_Name: mountain
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3321,7 +3321,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 10
-  m_Sprite: {fileID: 21300000, guid: d219472ab246bfd48ad73318263e845f, type: 3}
+  m_Sprite: {fileID: 21300000, guid: e48043dac45acfb4391e2182258d1abc, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
